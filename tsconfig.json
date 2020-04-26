@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "~*": ["./src/*"]
+    },
+    "allowJs": true,
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": false,
+    "allowSyntheticDefaultImports": true,
+    "pretty": true,
+    "removeComments": false,
+    "isolatedModules": false,
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noImplicitThis": true,
+    "strictFunctionTypes": true,
+    "noEmit": false,
+    "noLib": false,
+    "jsx": "react",
+    "sourceMap": false,
+    "outDir": "dist",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "src/@types"
+    ],
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin",
+        "tags": [
+          "styled",
+          "css"
+        ]
+      }
+    ],
+  },
+  "include": [
+    "src/**/*",
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}
