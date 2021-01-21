@@ -15,7 +15,7 @@
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
-    "immer": "^6.0.3",
+    "immer": "^8.0.1",
     "lodash-es": "^4.17.15",
     "memoize-one": "^5.1.1",
     "polished": "^3.5.1",
